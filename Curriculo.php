@@ -16,7 +16,7 @@
 <?php 
     date_default_timezone_set('America/Sao_Paulo');
         $agora = new DateTime();
-            echo $agora->format('d-m-Y H:i:s');
+            echo $agora->format('d/m/Y H:i:s');
                 $hora = date('H');
 
                     if ($hora >= 5 && $hora < 12) {
